@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+express.json()  - to convert all requests datas from json to json
+.json(data)     -convert (js to json) and send the data as response
+.sttsus(statusCode) - change the response status code as status code
+
+TOKEN IN server
+.................
+JWT TOKEN - json web TOKEN
+install
+       - npm i jsonwebtoken - library -jsonwebtoken
+       -sign() - method used to generate jwt token
+       - used to verify json web token
+       token verification
+       ...................
+
+       token verification can do using middlewares
+       middlewares have the capacity to control server requests
+
+       - middleware is a function with three arguments -  request,response,next
+       -two types od middlewares
+
+         1.Application specific middleware
+                -work before all requests
+         2.Router specific middleware  
+            - can apply to specific requests in server
+
+
+
+
+How to solve runtime errors in js
+..................................
+
+try except 
+
+try 
+   error causing code
+
+
+catch
+
+     error solve
+     
+
+frontEnd server integration
+...............................
+cors - cors origin resource sharing - library used to frontend server integration
+(4200 - 3000)
+
+steps
+
+1- import cors
+2- connection string
+3-
